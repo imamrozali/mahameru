@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.popup-content {
+  max-width: 200px; /* Limit the width of the popup */
+  padding: 10px; /* Add some padding */
+  background-color: white; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  font-family: Arial, sans-serif; /* Use a clean font */
+}
+
+.popup-content strong {
+  font-size: 16px; /* Larger font for the name */
+  color: #333; /* Darker color for the name */
+}
+
+.popup-address {
+  font-size: 14px; /* Address font size */
+  color: #666; /* Gray color for the address */
+}
+
+.popup-type {
+  font-size: 14px; /* Type font size */
+  color: #007bff; /* Blue color for the type */
+}
